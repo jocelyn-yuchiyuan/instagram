@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React, { Component } from 'react'
 import { View, Button, TextInput } from 'react-native'
 import firebase from 'firebase'
 
@@ -6,7 +6,7 @@ export default class Register extends React.Component {
   constructor(props){
     super(props);
     this.state = {
-      email : '',
+      email: '',
       password:'',
       name:''
     }

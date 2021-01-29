@@ -19,7 +19,7 @@ if (firebase.apps.length === 0){
 import { NavigationContainer } from '@react-navigation/native'
 import { createStackNavigator } from '@react-navigation/stack'
 import LandingScreen from './components/auth/landing'
-import RegisterSreen from './components/auth/Register'
+import RegisterScreen from './components/auth/Register'
 
 
 
